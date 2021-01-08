@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="A" ></p>
+	<script type="text/javascript">
+		var a=parseInt(prompt("Enter Two Digit Number"));
+		var b=parseInt(prompt("Enter Two Digit Number"));
+		var c=parseInt(prompt("Enter Two Digit Number"));
+       
+        var x=a%10;
+        var y=b%10;
+        var z=c%10;
+
+        if (x==y&&x==z) {
+        	document.getElementById("A").innerHTML = ("A,B,C Last digits are same");
+        }
+        else {
+        	document.getElementById("A").innerHTML = ("A,B,C Last digits are not same");
+        }
+
+
+
+
+	</script>
+
+</body>
+</html>
