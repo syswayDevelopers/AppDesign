@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script type="text/javascript">
+		var a=parseInt(prompt("enter 1st number"))
+		var b=parseInt(prompt("enter 2nd number"))
+		var c=prompt("enter operator")
+		var result
+	
+		if(c=="+"){
+			result = a+b
+		}
+		else if(c=="-"){
+			result=a-b
+		}
+		else if(c=="*"){
+			result=a*b
+		}
+		else if(c=="/"){
+			result=a/b
+		}
+		else{
+			result=a%b
+		}
+		
+		var e = result;
+		document.getElementById('demo').innerHTML="The value of "+a+""+c+""+b+"is"+" "+e;
+	</script>
+
+</body>
+</html>
