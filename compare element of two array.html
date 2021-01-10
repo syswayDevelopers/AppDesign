@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="A" ></p>
+    <script type="text/javascript">
+    	let z = 0;
+    	var a = [100, 200, 300, 400];
+    	var b = [500, 600, 700, 800];
+    	
+    	for(let i=0;i<a.length;i++)
+    	{
+    		if(a[i]==b[i])
+    		{
+    			z++;
+    		}
+    	}
+
+
+    	if(z==a.length)
+    	{
+    	document.getElementById("A").innerHTML = ("Two arrays are same");
+    	}
+    	else{
+    	document.getElementById("A").innerHTML = ("Two arrays are different");
+    	}
+        
+        
+    </script>
+</body>
+</html>
