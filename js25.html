@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h2>JavaScript Program to Remove Specific Item From an Array</h2>
+<hr>
+
+<p id="a"></p>
+<button onclick="myFunction()">Try it</button>
+
+
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("a").innerHTML = fruits;
+function myFunction() {
+  fruits.splice(1, 1);
+  document.getElementById("a").innerHTML = fruits;
+}
+</script>
+
+
+
+
+
+    </script>
+</body>
+</html>
