@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h2>JavaScript Program to Insert Item in an Array</h2>
+<hr>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="a"></p>
+<p id="b"></p>
+
+<script>
+var fruits = ["Bus", "Truck", "Cycle", "Car"];
+document.getElementById("a").innerHTML = "Original Array:<br>" + fruits;
+function myFunction() {
+  fruits.splice(4, 0, "Maruti", "Honda");
+  document.getElementById("b").innerHTML = "New Array:<br>" + fruits;
+}
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
